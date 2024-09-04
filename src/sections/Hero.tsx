@@ -45,6 +45,15 @@ export const HeroSection = () => {
                 />
               </Circle>
             </div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <Circle className="absolute -left-[600px] -top-[80px]">
+                <img
+                  src="/assets/images/torus.png"
+                  alt="Torus 3D Image"
+                  className="size-[140px]"
+                />
+              </Circle>
+            </div>
             <img
               src="/assets/images/icosahedron.png"
               alt=""
@@ -56,6 +65,14 @@ export const HeroSection = () => {
               className="w-[500px]"
             />
           </div>
+        </div>
+        <div className="flex flex-col justify-center items-center mt-40 md:mt-80">
+          <div className="inline-flex gap-4 justify-center w-5 h-10 rounded-full outline outline-[6px] outline-fuchsia-500/10">
+            <div className="w-1 h-3 bg-fuchsia-500 rounded-full"></div>
+          </div>
+          <p className="font-extrabold tracking-wider uppercase text-zinc-500">
+            Scroll to learn more
+          </p>
         </div>
       </div>
     </section>
